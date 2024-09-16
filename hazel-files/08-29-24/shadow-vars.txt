@@ -1,0 +1,5 @@
+let x = 5 * 2 in 
+ let y = x + 1 in  # previous x is used to define y in x + y #
+  let x = 3 * 3 in 
+x + y # this x is defined in the scope as y = x + 1 is defined #
+# x is shadowing, not assigning to the same location in memory #

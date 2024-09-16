@@ -1,0 +1,6 @@
+
+let x = 
+  let y = 3 * 3 in # 3 * 3 is bounded to y in the scope y + 1# 
+  y + 1 
+in 
+x # y cannot be used in this scope#

@@ -1,0 +1,7 @@
+let x = 5 * 2 in 
+let y = 3 * 3 in
+x + y
+# 5 * 2 is bound to variable x #
+# x is available in scope in the expression that uses y #
+# notice how state is memoryless as information is cascaded into the next scope#
+# the output is deterministic #

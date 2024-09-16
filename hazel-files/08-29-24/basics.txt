@@ -1,0 +1,19 @@
+
+# Comments in Hazel #
+# what is functional programming #
+# - programming with pure mathematical expression#
+
+# 2 * 3 + 4 #
+# * and + are operators #
+# expressions are composed with numbers + operators#
+# for example: the + operator works on the (2 * 3) subexpression and (4) subexpression #
+
+# Variables are given meaning subsctitution #
+# they are not IMPERATIVE variables#
+
+let x = 5 * 2 in 
+x + x + 2 * x  #using x twice in this expression #
+# notice operations substitution and variable lookup #
+# notice : x is evaluated (i.e "eager evaluation"), then performs #
+
+# let expressions can be composed inside other expressions#

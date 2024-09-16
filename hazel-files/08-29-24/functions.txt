@@ -1,0 +1,11 @@
+# to define a function -> bind variables #
+let plus1 : Int -> Int =
+  fun n : Int -> n + 1 :   
+    # let plus1 be the function that takes argument n and returns n + 1#
+in
+# substitute uses of variables (not bindings) #
+let y = 
+  fun line ->
+    let (m, x, b) = line in 
+    m * x + b 
+in y(5,3,4)
