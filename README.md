@@ -1,4 +1,4 @@
-# To Do 
+# Procedures
 
 - Lecture notes are written
 - Study notes are typed, may include
