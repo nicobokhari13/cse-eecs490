@@ -45,7 +45,7 @@
     * *NOTE: Syntax has nothing to do with tuples*
   * Functions can be parameterized, as in arbitrary types can be defined
     * **Example:** `fold_left:` takes in a function, base case, and variable to operate on: `fold _left f a xs`
-    * 
+
 
 
 ## First Program
