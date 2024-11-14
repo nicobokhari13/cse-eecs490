@@ -10,3 +10,7 @@
   - discussion notes
   - assignments/homework
   - office hours
+
+- Connect Github account
+- Install OCaml Dependencies 
+- Run eval $(opam env) to update the current shell environment
